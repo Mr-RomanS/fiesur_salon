@@ -242,12 +242,12 @@ header h3::after {
   transition: 0.5s ease;
   transform: scale(1.1);
 }
-#hero1 img{
+#hero1>a{
   width: 40px;
   font-size: 2rem;
-  background-color: white;
   padding: 5px;
-  color: transparent;
+  color:silver;
+  text-decoration: none;
   border-radius: 50%;
   margin-bottom: 1.5rem;
   animation: pfile ease infinite;
@@ -259,8 +259,8 @@ header h3::after {
     opacity: 1;
   }
   50% {
-    transform: scale(1.1);
-    opacity: 0.8;
+    transform: scale(1.2);
+    color:black;
   }
 }
 #hero2{
