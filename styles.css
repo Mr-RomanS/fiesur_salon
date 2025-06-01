@@ -306,7 +306,8 @@ header h3::after {
   max-height: 500px;
 }
 .box div{
-  position: relative;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 }
 .box h2{
@@ -332,14 +333,15 @@ header h3::after {
   bottom: 0;
 }
 .box a{
+  width: 50%;
   font-size: 1.2rem;
+  text-align: center;
   font-family: var(--über-text);
   background-color:rgb(170, 169, 169);
   border: 1px solid silver;
   color: white;
   padding: 10px;
-  position: absolute;
-  bottom: 20px;
+  margin-top: 3rem;
   text-decoration: none;
 }
 .bewertungen-section {
